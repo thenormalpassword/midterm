@@ -66,13 +66,16 @@ print(_)
 5. Write a function that outputs your grade on this midterm.
 
 
-
 print("Jesse Sanchez")
+
+
 
 def name_and_grade( Last_Name ,first_initial , Grade):
 
   sentence = "My last name is {Last_Name}, my first initial is {first_initial} , and my grade is {Grade}".format(Last_Name = "Sanchez" , first_initial = "J", Grade = str(9) )
   return sentence
+  
+  
   
  def consecutive_numbers(n):
 
