@@ -87,3 +87,21 @@ def name_and_grade( Last_Name ,first_initial , Grade):
   return number_list
 
 print(number_list)
+
+
+def factors(n):
+
+  factor_list = [1,2,3,4,5]
+
+  for i in range(1, n):
+    
+    if n % i == 0:
+    factor_list.append(i)
+      
+
+  return factor_list
+
+print(0)
+
+
+print(100)
