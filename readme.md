@@ -101,7 +101,7 @@ def factors(n):
 
   return factor_list
 
-print(0)
+print(8)
 
 
 print(100)
