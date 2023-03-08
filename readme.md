@@ -77,16 +77,25 @@ def name_and_grade( Last_Name ,first_initial , Grade):
   
   
   
- def consecutive_numbers(n):
+print("Jesse Sanchez")
 
+def name_and_grade(Last_Name,first_initial,Grade):
+
+  sentence = "My last name is {Last_Name}, my first initial is {first_initial} , and my grade is {Grade}".format(Last_Name = "Sanchez" , first_initial = "J", Grade = str(9) )
+  return sentence
+  
+print(name_and_grade("Sanchez" , "J" ,str(9)))
+  
+def consecutive_numbers(n):
+   
   number_list = []
 
   for i in range(1, n):
     number_list.append(i)
-
+  
   return number_list
 
-print(number_list)
+print(consecutive_numbers(12))
 
 
 def factors(n):
@@ -96,12 +105,18 @@ def factors(n):
   for i in range(1, n):
     
     if n % i == 0:
-    factor_list.append(i)
+      factor_list.append(i)
       
 
   return factor_list
 
-print(8)
+print(factors(8))
 
-
-print(100)
+def Midterm(number):
+  if number == 100:
+   return "100"
+  else:
+    print("invaild grade")
+  
+print(Midterm(100))
+print(Midterm(98))
