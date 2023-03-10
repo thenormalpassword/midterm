@@ -90,7 +90,7 @@ def consecutive_numbers(n):
    
   number_list = []
 
-  for i in range(1, n):
+  for i in range(1, n + 1):
     number_list.append(i)
   
   return number_list
@@ -102,7 +102,7 @@ def factors(n):
 
   factor_list = [1,2,3,4,5]
 
-  for i in range(1, n):
+  for i in range(1, n + 1):
     
     if n % i == 0:
       factor_list.append(i)
