@@ -65,7 +65,7 @@ print(_)
 </br>
 5. Write a function that outputs your grade on this midterm.
 
-
+```py
 print("Jesse Sanchez")
 
 
@@ -120,3 +120,4 @@ def Midterm(number):
   
 print(Midterm(100))
 print(Midterm(98))
+```
